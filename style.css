@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+
 body,
 h1,
 ul {
@@ -15,6 +16,7 @@ h1 {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 /* layout */
@@ -24,6 +26,12 @@ ul {
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 10px 5px 10px #cfcfcf;
+}
+
+.list-wrapper {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-top: 5px solid #eeeeee;
 }
 
 /* design */
@@ -45,13 +53,7 @@ body {
   padding-left: 15px;
 }
 
-.bucket-list {
-  background-color: #f4f4f4;
-  padding: 20px;
-  border-top: 5px solid #eeeeee;
-}
-
-.bucket-list-item {
+.list-item {
   background-color: #fff;
   padding: 10px;
   margin-bottom: 15px;
@@ -61,11 +63,11 @@ body {
   border-radius: 10px;
 }
 
-.bucket-list-item:last-child {
+.list-item:last-child {
   margin-bottom: 0;
 }
 
-.highlight {
+.list-highlight {
   color: #1d90ff;
   border: 4px solid;
   background-color: transparent;
