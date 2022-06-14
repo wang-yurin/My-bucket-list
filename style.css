@@ -1,0 +1,72 @@
+/* reset */
+* {
+  box-sizing: border-box;
+}
+body,
+h1,
+ul {
+  margin: 0;
+}
+
+h1 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* layout */
+.wrapper {
+  width: 500px;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 10px 5px 10px #cfcfcf;
+}
+
+/* design */
+body {
+  background-color: #dcdcdc;
+}
+
+.header {
+  background-color: #fff;
+  padding: 25px 0;
+}
+
+.header-title {
+  font-size: 25px;
+  font-weight: 900;
+  color: #ff69b4;
+  border-left: 7px solid;
+  /* text-indent를 주어야할지 padding-left를 주어야할지 고민이 됩니다. */
+  padding-left: 15px;
+}
+
+.bucket-list {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-top: 5px solid #eeeeee;
+}
+
+.bucket-list-item {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: #9e9e9e;
+  font-weight: 700;
+  border: 4px solid #eeeeee;
+  border-radius: 10px;
+}
+
+.bucket-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.highlight {
+  color: #1d90ff;
+  border: 4px solid;
+  background-color: transparent;
+}
